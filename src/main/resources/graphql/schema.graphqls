@@ -1,0 +1,10 @@
+type Query {
+  customers: [Customer!]!
+}
+
+type Customer {
+  id: ID!
+  name: String!
+  email: String!
+  openTickets: Int!
+}
